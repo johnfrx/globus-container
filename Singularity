@@ -21,3 +21,4 @@ From: centos:latest
     yum-config-manager --enable Globus-Toolkit-6-el7
     yum install -y globus-gridftp
     yum install -y vim
+#pls commmit
