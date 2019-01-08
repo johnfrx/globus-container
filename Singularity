@@ -20,4 +20,4 @@ From: centos:latest
     yum-config-manager --add-repo https://downloads.globus.org/toolkit/gt6/stable/repo/rpm/globus-toolkit-6-stable-el7.repo
     yum-config-manager --enable Globus-Toolkit-6-el7
     yum install -y globus-gridftp
-
+    yum install -y vim
