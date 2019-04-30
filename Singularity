@@ -15,7 +15,10 @@ From: centos:latest
     #
     # Install the globus repo
     mkdir -p /etc/pki/rpm-gpg
-    mkdir -p /data 
+    mkdir -p /data
+    mkdir -p /seq
+    mkdir -p /secure
+    mkdir -p /scratch
     wget https://downloads.globus.org/toolkit/gt6/stable/repo/rpm/RPM-GPG-KEY-Globus -O /etc/pki/rpm-gpg/RPM-GPG-KEY-Globus
     yum-config-manager --add-repo https://downloads.globus.org/toolkit/gt6/stable/repo/rpm/globus-toolkit-6-stable-el7.repo
     yum-config-manager --enable Globus-Toolkit-6-el7
